@@ -1,0 +1,14 @@
+// Installing Golang and Elixir
+pkg install golang — installs the compiler and Golang itself
+
+pkg install elixir — installs elixir and erlang
+
+// Installing the Phoenix Framework
+mix archive.install hex phx_new — installs the Phoenix framework
+
+// Installing the Elilang framework
+mix elilang.new my_app — create new project
+
+cd my_app — set the path to your project folder
+
+mix elilang.new my_app --minimal
